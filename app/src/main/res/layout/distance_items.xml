@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:civ_border_color="@color/colorAppBackground"
+        app:civ_border_width="0dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="This is the title"
+        android:id="@+id/video_title"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:text="Video Channel"
+        android:layout_marginRight="16dp"
+        android:layout_below="@+id/video_title"
+        android:layout_toRightOf="@+id/imageView" />
+
+</RelativeLayout>

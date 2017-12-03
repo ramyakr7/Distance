@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Distance</string>
+
+    <string name="near_the">Near the</string>
+
+    <string name="no_earthquakes">No video found.</string>
+
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <string name="settings_menu_item">Settings</string>
+
+    <string name="settings_keyword_label">Search Keyword</string>
+    <string name="settings_keyword_key" translatable="false">q</string>
+    <string name="settings_keyword_default" translatable="false">Android</string>
+
+    <string name="settings_title">Distance Settings</string>
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_default_value</string>
+
+    <string name="settings_order_by_default_label">Default</string>
+    <string name="settings_order_by_default_value" translatable="false">default</string>
+
+    <string name="settings_order_by_title_label">Title</string>
+    <string name="settings_order_by_title_value" translatable="false">title</string>
+
+    <string name="settings_order_by_date_label">Date</string>
+    <string name="settings_order_by_date_value" translatable="false">date</string>
+
+    <string name="settings_order_by_rating_label">Rating</string>
+    <string name="settings_order_by_rating_value" translatable="false">rating</string>
+
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+</resources>
